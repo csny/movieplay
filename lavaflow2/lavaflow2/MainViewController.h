@@ -11,5 +11,5 @@
 
 @interface MainViewController : UIViewController <FlipsideViewControllerDelegate>
 
-@property (nonatomic, retain) MPMoviePlayerController *player;
+@property (strong, nonatomic) MPMoviePlayerController *player;
 @end
