@@ -22,6 +22,7 @@
 		04B4240717C0EBA5004DD70E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B4240617C0EBA5004DD70E /* MediaPlayer.framework */; };
 		04B4240917C0ECF3004DD70E /* Movie.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 04B4240817C0ECF3004DD70E /* Movie.m4v */; };
 		04B4240B17C0FCE1004DD70E /* iconLavaFlow.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B4240A17C0FCE1004DD70E /* iconLavaFlow.png */; };
+		04B4244317C10E89004DD70E /* lavaFlow.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 04B4244217C10E89004DD70E /* lavaFlow.m4v */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		04B4240617C0EBA5004DD70E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		04B4240817C0ECF3004DD70E /* Movie.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Movie.m4v; sourceTree = SOURCE_ROOT; };
 		04B4240A17C0FCE1004DD70E /* iconLavaFlow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconLavaFlow.png; sourceTree = SOURCE_ROOT; };
+		04B4244217C10E89004DD70E /* lavaFlow.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = lavaFlow.m4v; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		04B423E717C0E737004DD70E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04B4244217C10E89004DD70E /* lavaFlow.m4v */,
 				04B4240A17C0FCE1004DD70E /* iconLavaFlow.png */,
 				04B4240817C0ECF3004DD70E /* Movie.m4v */,
 				04B423E817C0E737004DD70E /* lavaflow2-Info.plist */,
@@ -180,6 +183,7 @@
 				04B423FA17C0E737004DD70E /* MainStoryboard.storyboard in Resources */,
 				04B4240917C0ECF3004DD70E /* Movie.m4v in Resources */,
 				04B4240B17C0FCE1004DD70E /* iconLavaFlow.png in Resources */,
+				04B4244317C10E89004DD70E /* lavaFlow.m4v in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,7 +20,7 @@
 {
     // 再生する動画を指定
     NSString *path;
-    path = [[NSBundle mainBundle] pathForResource:@"Movie" ofType:@"m4v"];
+    path = [[NSBundle mainBundle] pathForResource:@"lavaFlow" ofType:@"m4v"];
     NSURL *url;
     url = [NSURL fileURLWithPath:path];
     // ネット上にある動画を再生する場合はURLで指定
