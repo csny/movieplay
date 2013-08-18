@@ -10,7 +10,7 @@
 
 @class MainViewController;
 
-@interface AppDelegate : NSObject <UIApplicationDelegate> {
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
     UIWindow *window;
     MainViewController *viewController;
 }
