@@ -38,22 +38,6 @@
     [player.view setFrame:movieSize];
     player.backgroundView.backgroundColor = [UIColor clearColor];
     
-    //CGAffineTransform transform = player.view.transform;
-	
-	//player.view.transform = CGAffineTransformIdentity;
-	
-	// position (0,0)
-	//transform = CGAffineTransformTranslate(transform, 0, 120);
-	// Rotate the view -90 degrees.
-	//transform = CGAffineTransformRotate(transform, (M_PI / -2.0));
-	// Scale 175%
-	//transform = CGAffineTransformScale(transform, 1.75, 1.75);
-	
-	//player.view.transform = transform;
-	
-    //	CGRect newFrame = player.view.frame;
-    //	newFrame.origin.x = 190;
-    //	player.view.frame = newFrame;
 	
 	[self.view addSubview:player.view];
 	
@@ -72,7 +56,6 @@
 	 name:MPMoviePlayerPlaybackDidFinishNotification
 	 object:player];
 	
-    //	[player prepareToPlay];
 	[player play];
     NSLog(@"playing");
 }
@@ -82,7 +65,6 @@
 - (void) moviePlayerLoadStateDidChangeNotification:(NSNotification*)notification
 {
 	NSLog(@"preloaded");
-    //	[player play];
 }
 
 // 動画の再生終了
@@ -90,15 +72,6 @@
 {
 	[player play];
     NSLog(@"finished");
-	
-    //    MPMoviePlayerController *p = [aNotification object];
-    //    [[NSNotificationCenter defaultCenter]
-    //	 removeObserver:self
-    //	 name:MPMoviePlayerPlaybackDidFinishNotification
-    //	 object:p];
-    //
-    //    [p stop];
-    //    [p release];
 }
 
 - (void)viewDidLoad
